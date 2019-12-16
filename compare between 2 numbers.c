@@ -4,7 +4,7 @@ main ()
 {
   int a, b, sum;
 
-    //printf("Enter the 1st number\n");
+
     printf ("Enter the 1st number\n");
 
 
@@ -15,14 +15,21 @@ printf ("Enter the 2nd number\n");
 
 scanf ("%d", &b);
 
-sum = a + b;
+ if(a<b)
+{
+    printf("B is hiigher then A\n",b);
 
-printf ("The sum is %d\n", sum);
+}
+else
+printf ("A is higher number then B\n", a);
 
 
 return 0;
 
 }
+
+
+
 
 
 
